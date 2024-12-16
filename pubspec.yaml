@@ -14,6 +14,8 @@ dependencies:
   shared_preferences: ^2.2.3
   latlong2: ^0.9.1
   flutter_map: ^7.0.2
+  http: ^1.2.2
+  geolocator: ^13.0.2
 
 dev_dependencies:
   flutter_test:
@@ -34,6 +36,8 @@ flutter:
     - images/images1.png
     - images/appple.png
     - images/gg.png
+    - images/Welcome Screen.png
+
 
 
 

@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:global_taxi_app/auth/login.dart';
 import 'package:global_taxi_app/home/home_screen.dart';
+import 'package:global_taxi_app/welcome/welcome.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 import '../model/content_model.dart';
@@ -102,7 +103,7 @@ class _OnbordingState extends State<Onbording> {
                   Navigator.pushReplacement(
                     context,
                     MaterialPageRoute(
-                      builder: (_) => const LoginPage(),
+                      builder: (_) => WelcomeScreen(),
                     ),
                   );
                 } else {

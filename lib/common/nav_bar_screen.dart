@@ -27,7 +27,7 @@ class _BottomNavBarState extends State<BottomNavBar> {
       const HomeScreen(),
       const SearchScreen(),
       const CartScreen(),
-      const ProfileScreen(),
+       ProfileScreen(),
     ];
   }
   void callback(int newIndex) {
